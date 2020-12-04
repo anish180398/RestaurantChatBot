@@ -5,12 +5,11 @@ Prerequisites
 2. Rasa Framework
 
 How to use
-Clone the repo
-add the Zomato API key to zomatoApi.py file
-open the terminal in the project directory and run the below commands
-rasa train
+1.Clone the repo
+2.add the Zomato API key to zomatoApi.py file
+3.open the terminal in the project directory and run the below commands
+  rasa train
 
-Once the bot has been trained, run the bot using the below commands
-rasa run actions
-
-rasa run -m models --enable-api --cors "*" --debug
+4.Once the bot has been trained, run the bot using the below commands
+  rasa run actions
+  rasa run -m models --enable-api --cors "*" --debug
